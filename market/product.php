@@ -54,7 +54,7 @@ if ($data) {
                     <?php echo "&#8358;" . number_format($p_control->price, 2, ".", ",") ?>
                 </span>
                 <span>
-                    <a href="tel:+<?php echo $user->phone ?>">contact seller</a>
+                    <a href="tel:<?php echo $user->phone ?>">contact seller</a>
                 </span>
             </div>
         </section>

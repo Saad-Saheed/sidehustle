@@ -67,7 +67,7 @@ class ProductController extends Product
         foreach ($clean_data as $key => $input) {
 
             if (empty($input))
-                $message[$key] = "Invalid input, Your $key is required";
+                $message[$key] = "Invalid input, Product $key is required";
         }
 
         $this->validate_Image($message, $image_name);
@@ -142,7 +142,7 @@ class ProductController extends Product
         foreach ($clean_data as $key => $input) {
 
             if (empty($input))
-                $message[$key] = "Invalid input, Your $key is required";
+                $message[$key] = "Invalid input, Product $key is required";
         }
 
         //if they update their photo or if photo field is empty

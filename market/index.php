@@ -64,7 +64,7 @@ else
                         <?php echo "&#8358;" . number_format($product->price, 2, ".", ",") ?>
                     </span>
                     <span>
-                        <a href="tel:+<?php echo $user->phone ?>">contact seller</a>
+                        <a href="tel:<?php echo $user->phone ?>">contact seller</a>
                     </span>
                 </div>
             </section>
