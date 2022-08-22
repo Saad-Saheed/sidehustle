@@ -274,7 +274,7 @@ class ProductController extends Product
                     case UPLOAD_ERR_INI_SIZE:
                         $message['image'] = 'the image size is larger than the server allows';
                         break;
-
+                   
                     case UPLOAD_ERR_FORM_SIZE:
                         $message['image'] = "This image is greater than 1MB";
                         break;

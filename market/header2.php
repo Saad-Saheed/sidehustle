@@ -42,7 +42,7 @@ if (isset($_SESSION['current_user']))
 
 				<li><a href="./login.php">Login</a></li>
 
-				<li><a href="https://saadsaheed.com.ng/portfolio">Contact Us</a></li>
+				<li><a href="https://saadsaheed.com.ng/">Contact Us</a></li>
 			</ul>
 		</nav>
 

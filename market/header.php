@@ -62,7 +62,7 @@ function logout()
                 <li><a href="./add_product.php">Add Product</a></li>
                 <li><a href="./my_product.php">My Products</a></li>
                 <li><a href="./index.php">All Products</a></li>
-                <li><a href="https://saadsaheed.com.ng/portfolio">Contact Us</a></li>
+                <li><a href="https://saadsaheed.com.ng/">Contact Us</a></li>
                 <li><a href="?action=logout">Logout</a></li>
             </ul>
         </nav>
